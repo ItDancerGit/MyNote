@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@mipmap/ic_launcher_round"
+        />
+
+    <ListView
+        android:id="@+id/mylv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view"
+        android:layout_marginTop="40dp"
+        android:divider="#d9d9d9"
+        android:dividerHeight="10dp"></ListView>
+
+    <LinearLayout
+        android:id="@+id/liner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_below="@id/mylv">
+
+        <Button
+            android:id="@+id/login_in"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:fontFamily="serif"
+            android:includeFontPadding="true"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:id="@+id/change_button"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="切换账户"
+            android:fontFamily="serif"
+            android:includeFontPadding="true"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="退出登录"
+            android:textColor="@android:color/holo_red_light"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

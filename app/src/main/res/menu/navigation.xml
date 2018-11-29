@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="true"
+        android:actionLayout="@layout/note_layout"
+        android:icon="@drawable/ic_event_note_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:enabled="true"
+        android:actionLayout="@layout/diary_layout"
+        android:icon="@drawable/ic_event_black_24dp"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:enabled="true"
+        android:actionLayout="@layout/my_layout"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/title_notifications" />
+
+</menu>

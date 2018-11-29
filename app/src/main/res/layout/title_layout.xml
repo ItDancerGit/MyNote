@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/darker_gray">
+
+    <Button
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/title_left"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/ic_event_available_black_24dp"/>
+
+    <Button
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/title_right"
+        android:layout_gravity="center"
+        android:layout_marginLeft="320dp"
+        android:background="@drawable/ic_add_black_24dp"/>
+
+</LinearLayout>
